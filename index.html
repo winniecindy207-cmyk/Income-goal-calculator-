@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Income Goal Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>💰 Income Goal Calculator</h1>
+    <p class="subtitle">Find out exactly what it takes to hit your money goal</p>
+
+    <div class="card">
+      <label>What is your income goal? (₦)</label>
+      <input type="number" id="goal" placeholder="e.g. 50000">
+
+      <label>How much does your product or service cost? (₦)</label>
+      <input type="number" id="price" placeholder="e.g. 3000">
+
+      <label>How many days do you want to achieve this in?</label>
+      <input type="number" id="days" placeholder="e.g. 30">
+
+      <button onclick="calculate()">Calculate My Goal</button>
+    </div>
+
+    <div class="result" id="result"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
